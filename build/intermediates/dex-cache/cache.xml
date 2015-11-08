@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\juhe_sdk_v_2_7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f3b91b1e41ae9d0259b9db6fec4cd9884ed9e5ee">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\juhe_sdk_v_2_7-0690d6829a63be5066446ade171a518943b80ba1.jar" />
+    </item>
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="868c060abfa9778e598e631f93f94037edbe8996">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-cb45c58b92863737f9fc18aef331879122a4be70.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk-windows\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\19.0.0\support-v4-19.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="afee690af14bd2c32d400cdf78e746fd45c386fa">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\support-v4-19.0.0-dc5baabc3d2cb5a09e779f7f45d13e7613f698d2.jar" />
+    </item>
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\fastjson-1.2.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\fastjson-1.2.2-a1b289999cc9f5b9652abbdd3a9e2050639feff5.jar" />
+    </item>
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-04827f4bb53d2c74a75a8f6fcdebb6f55bf89a5b.jar" />
+    </item>
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\commons-views-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="46b045015a39348a52577c2abcbabd3d752032e1">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\commons-views-1.0.0-8ae8ebe0425ccdbb7946738225a95e00cc11f34e.jar" />
+    </item>
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\zxing.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\zxing-fb6de3f835f73f8f658c4298c9e6da168f820423.jar" />
+    </item>
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\showGif.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ab78ed461deab5206c4cac6bbcf60e6d963cfd85">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\showGif-c44ad6316a5a05ff0b7b3297101d4e088218641f.jar" />
+    </item>
+    <item
+        jar="F:\PersonalProjectWorkSpace\kuaicha\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="F:\PersonalProjectWorkSpace\kuaicha\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-42a8ef6cba7f8b02e1b20b9f21c6822bed381f40.jar" />
+    </item>
+
+</items>

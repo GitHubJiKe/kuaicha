@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:background="#4D61DA"
+        android:gravity="center"
+        android:text="查询"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/et_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="选择公司" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_company"
+        android:layout_below="@+id/et_company"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="输入单号" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_number"
+        android:layout_alignRight="@+id/et_number"
+        android:layout_below="@+id/et_number"
+        android:layout_marginTop="23dp"
+        android:text="查询" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/et_number"
+        android:layout_alignTop="@+id/et_number"
+        android:src="@drawable/saoma" />
+
+</RelativeLayout>

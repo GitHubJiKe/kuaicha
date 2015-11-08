@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="#4D61DA"
+        android:gravity="center"
+        android:text="注册"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="用户名"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_username"
+        android:layout_below="@+id/et_username"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="密码"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_password"
+        android:layout_below="@+id/et_password"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="确认密码"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_password2"
+        android:layout_alignRight="@+id/et_username"
+        android:layout_below="@+id/et_password2"
+        android:layout_marginTop="24dp"
+        android:onClick="doClick"
+        android:text="注册" />
+
+</RelativeLayout><!-- From: file:/F:/PersonalProjectWorkSpace/kuaicha/app/src/main/res/layout/activity_register.xml -->

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="showGif">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/showGif.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

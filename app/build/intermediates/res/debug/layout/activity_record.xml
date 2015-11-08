@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ypf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.ypf.kuaicha.myMenu.MyMenu
+        android:id="@+id/mymenu"
+        ypf:rightPadding="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <include layout="@layout/left_menu" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:background="#ffff">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="49dp"
+                        android:background="#4D61DA"
+                        android:gravity="center"
+                        android:text="记录"
+                        android:textSize="40sp" />
+                    <ListView
+                        android:id="@+id/record"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#ffff"
+                        android:layout_below="@+id/title"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true">
+                    </ListView>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ypf.kuaicha.myMenu.MyMenu>
+
+</RelativeLayout><!-- From: file:/F:/PersonalProjectWorkSpace/kuaicha/app/src/main/res/layout/activity_record.xml -->
